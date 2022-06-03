@@ -32,7 +32,7 @@ namespace procesareCaractere
                     characters++;
             }
             
-            Console.WriteLine($"Vowels: {vowels},{Environment.NewLine}Consonants:{consonants},{Environment.NewLine}Characters: {characters},{Environment.NewLine}Lines:{lines}");
+            Console.WriteLine($"Characters: {characters}{Environment.NewLine}Vowels: {vowels}{Environment.NewLine}Consonants: {consonants}{Environment.NewLine}Lines: {lines}");
         }
 
         private static bool isCharacter(char c)
