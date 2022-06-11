@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "procesare-caractere": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\CRISTI\\Desktop\\Facultate\\OOP\\tema\\procesare-caractere\\procesare-caractere\\TextFile1.txt"
+    }
+  }
+}

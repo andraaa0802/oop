@@ -10,15 +10,16 @@ namespace procesareCaractere
             var reader = new StreamReader("TextFile1.txt"); //path: D:\Andra\tema-oop\procesareCaractere\procesareCaractere\bin\Debug\net5.0
             int lines = 0;
 
-            while(!reader.EndOfStream)
+            while (!reader.EndOfStream)
             {
                 reader.ReadLine();
                 lines++;
             }
 
-            TextReader reader2= new StreamReader("TextFile1.txt");
+            //TextReader reader2= new StreamReader("TextFile1.txt");
+            
 
-            string text = reader2.ReadToEnd();
+            string text = reader.ReadToEnd();
 
             int vowels = 0, consonants = 0, characters = 0; //in characters se numara literele, cifrele si semnele de punctuatie
 
