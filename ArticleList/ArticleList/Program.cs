@@ -33,7 +33,7 @@ namespace ArticleList
             Console.WriteLine();
             filters.GetArticlesOrderedAscByDislikes(articles);
             Console.WriteLine();
-            filters.GetAuthorsOrderedAscByNrOfArticles(articles);
+            filters.GetNrOfArticlesBetweenDates(articles, new DateTime(2010, 8, 12), new DateTime(2020, 12, 25));
         }
     }
 }
