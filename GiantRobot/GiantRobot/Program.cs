@@ -8,6 +8,7 @@ namespace GiantRobot
         {
             Engine.StartGame();
             Planet.Select();
+            Engine.Round(Planet.enemy, Planet.robot);
         }
     }
 }

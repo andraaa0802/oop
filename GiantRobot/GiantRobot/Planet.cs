@@ -14,19 +14,19 @@ namespace GiantRobot
                 case "Earth":
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine(Environment.NewLine+"Nice choice! On Earth, your enemy is a Human!");
-                    enemy = new Enemy("Human", 100, rnd.Next(1,10));
+                    enemy = new Enemy("Human", rnd.Next(50,100), rnd.Next(1,10));
                     Console.ResetColor();
                     break;
                 case "Mars":
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine(Environment.NewLine + "Nice choice! On Mars, your enemy is a Superhero!");
-                    enemy = new Enemy("Superhero", 100, rnd.Next(10,20));
+                    enemy = new Enemy("Superhero", rnd.Next(50, 100), rnd.Next(10,20));
                     Console.ResetColor();
                     break;
                 case "Pluto":
                     Console.ForegroundColor = ConsoleColor.Yellow;
                     Console.WriteLine(Environment.NewLine + "Nice choice! On Pluto, your enemy is an Alien!");
-                    enemy = new Enemy("Alien", 100, rnd.Next(1,20));
+                    enemy = new Enemy("Alien", rnd.Next(50, 100), rnd.Next(1,20));
                     Console.ResetColor();
                     break;
                 default:

@@ -2,7 +2,7 @@
 {
     public class Robot
     {
-        public int health, damage;
+        public int health=100, damage=10;
         public string name;
         public bool isAlive = true;
 
